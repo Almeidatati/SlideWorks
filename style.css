@@ -8,8 +8,9 @@
 }
 
 body {
+    
     font-size: 100%;
-    background:#F8F8F8;
+    background:#F8F8F8;    
 
 }
 
@@ -48,6 +49,8 @@ header {
 }
 
 .conteudo {
+    display: flex;
+    flex-flow: wrap;
     margin-bottom: 48px;
     border-top: 0.4px solid  #CCCCCC;
           
@@ -147,7 +150,7 @@ header {
 }*/
 
 .rodape {  
-   /* display:flex; 
+   /*display:flex; 
     list-style: none;
     flex-direction: flex-end ;
     justify-content: space-around;*/
@@ -155,7 +158,8 @@ header {
     height: 270px;
     left: 0px;
     top: 2001px; 
-    background: #1E2833;     
+    background: #1E2833;
+     
 
 }
 
@@ -174,6 +178,7 @@ header {
     align-items: center;
     align-content: space-around;
     margin-left: 12.92%;
+    
 
     font-family:'DM Sans' sans-serif;
     font-style: normal;
@@ -187,24 +192,22 @@ header {
 }
 
 ul li a { /*redes sociais */
-    display: flex;
-    align-items: flex-end;
-    align-content: flex-end;
-    margin-left: 75%;
-
+    width: auto;
+    height: auto;
+    margin-bottom: auto;
+    
+    
     
 }
 
 
  
 
-
-
-
-
-
     
     
+    
+   
+
 
 
 
